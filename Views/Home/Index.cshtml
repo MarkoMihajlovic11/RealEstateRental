@@ -1,0 +1,459 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="~/images/realestatesrentalIcon.jpg">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" 
+          integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" 
+          crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"
+            integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+"
+            crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 
+            crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/style.css">
+    <title>Real estates rental</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <!-- navbar --> 
+        <nav class="navbar navbar-expand-lg fixed-top nav-menu">
+            <a href="#" class="navbar-brand text-light text-uppercase"><span class="h2 font-weight-bold">Real estates</span>
+                <span class="h1">rental</span>
+            </a>
+            <button class="navbar-toggler nav-button" type="button" data-toggle="collapse" data-target="#myNavbar"> 
+            <div class="bg-light line1"></div> 
+            <div class="bg-light line2"></div> 
+            <div class="bg-light line3"></div> 
+            </button>
+            <div class="collapse navbar-collapse justify-content-end text-uppercase font-weight-bold" id="myNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item"> <a href="#home" class="nav-link m-2 menu-item nav-active">Home</a> </li>
+                    <li class="nav-item"> <a href="#mission" class="nav-link m-2 menu-item">Mission</a> </li>
+                    <li class="nav-item"> <a href="#apartments" class="nav-link m-2 menu-item">Apartments</a> </li>
+                    <li class="nav-item"> <a href="#gallery" class="nav-link m-2 menu-item">Gallery</a> </li>
+                    <li class="nav-item"> <a href="#customers" class="nav-link m-2 menu-item">Customers</a> </li>
+                    <li class="nav-item"> <a href="#pricing" class="nav-link m-2 menu-item">Pricing</a> </li>
+                    <li class="nav-item"> <a href="#contact" class="nav-link m-2 menu-item">Contact</a> </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- end of navbar -->
+        <!-- banner -->
+        <div class="text-light text-md-right text-center banner" id="home">
+            <h1 class="display-4 banner-heading">Welcome to <span class="text-uppercase">Real estates </span><span class="display-3">rental</span></h1>
+            <p class="lead banner-par text-lowercase">find an apartment tailored to your needs</p>
+        </div>
+        <!-- end of banner -->
+    </header>
+    <!-- End of header -->
+    <!-- Mission -->
+    <section class="p-5 mission" id="mission">
+        <div class="container-fluid">
+            <!-- title -->
+            <div class="row text-white text-center">
+                <div class="col m-4">
+                    <h1 class="display-4 mb-4">Our Mission</h1>
+                    <div class="underline mb-4">
+                    </div>
+                    <p class="lead">To find an apartment to your liking</p>
+                </div>
+            </div>
+            <!-- end of title -->
+            <div class="row my-5">
+                <div class="col-md-4 text-center">
+                    <i class="far fa-building fa-5x text-danger mb-4"></i>
+                    <h1 class="text-white mb-3">Belgrade</h1>
+                    <p class="text-muted">We offer apartments in Belgrade</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <i class="fas fa-university fa-5x text-danger mb-4"></i>
+                    <h1 class="text-white mb-3">Novi Sad</h1>
+                    <p class="text-muted">There are also apartments all over the city in Novi Sad</p>
+                </div> <div class="col-md-4 text-center">
+                    <i class="fas fa-check-circle fa-5x text-danger mb-4"></i>
+                    <h1 class="text-white mb-3">Years of experience</h1>
+                    <p class="text-muted">We have been in business for many years</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 text-center"> <img src="~/images/condo1.jpg" width="350" class="img-fluid camera-img"> </div>
+                <div class="col-lg-7 text-white text-lg-right text-center mission-text">
+                    <h1>We know what we do</h1>
+                    <p class="lead">Our goal is for everyone to find a place to live that tailored to his needs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of mission -->
+    <!-- Apartments -->
+    <section class="bg-secondary py-4" id="apartments">
+        <div class="container-fluid">-->
+            <!-- title -->
+            <div class="row text-white text-center">
+                <div class="col m-4">
+                    <h1 class="display-4 mb-4">Apartments</h1>
+                    <div class="underline mb-4">
+                    </div>
+                    <p class="lead">These are some of the apartments we rent</p>
+                </div>
+            </div>
+            <!-- end of title -->
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 my-5">
+                    <div class="card border-0 card-shadow">
+                        <img src="~/images/condo1.jpg" class="card-img">
+                        <div class="card-img-overlay">
+                            <h5 class="text-white text-uppercase font-weight-bold p-2 heading">Apartment in Novi Sad</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 my-5">
+                    <div class="card border-0 card-shadow">
+                        <img src="~/images/condo3.jpg" class="card-img">
+                        <div class="card-img-overlay">
+                            <h5 class="text-white text-uppercase font-weight-bold p-2 heading">Apartment in Belgrade</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 my-5">
+                    <div class="card border-0 card-shadow">
+                        <img src="~/images/condo34.jpg" class="card-img">
+                        <div class="card-img-overlay">
+                            <h5 class="text-white text-uppercase font-weight-bold p-2 heading">Apartment in Novi Sad</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 my-5">
+                    <div class="card border-0 card-shadow">
+                        <img src="~/images/condo6.jpg" class="card-img">
+                        <div class="card-img-overlay">
+                            <h5 class="text-white text-uppercase font-weight-bold p-2 heading">Apartment in Novi Sad</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 my-5">
+                    <div class="card border-0 card-shadow">
+                        <img src="~/images/condo4.jpg" class="card-img"> <div class="card-img-overlay">
+                            <h5 class="text-white text-uppercase font-weight-bold p-2 heading">Apartment in Belgrade</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 my-5">
+                    <div class="card border-0 card-shadow">
+                        <img src="~/images/condo5.jpg" class="card-img">
+                        <div class="card-img-overlay">
+                            <h5 class="text-white text-uppercase font-weight-bold p-2 heading">Apartment in Belgrade</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of apartments -->
+    <!-- Gallery -->
+    <section class="py-5" id="gallery">
+        <div class="container-fluid">
+            <!-- title -->
+            <div class="row text-muted text-center">
+                <div class="col m-4">
+                    <h1 class="display-4 mb-4">Gallery</h1>
+                    <div class="underline-dark mb-4">
+                    </div>
+                </div>
+            </div>
+            <!-- end of title -->
+            <ul class="list-inline text-center text-uppercase font-weight-bold my-4">
+                <li class="list-inline-item gallery-list-item active-item" data-filter="all">
+                    All<span class="mx-md-5 mx-3 text-muted">/</span>
+                </li>
+                <li class="list-inline-item gallery-list-item" data-filter="new"> New<span class="mx-md-5 mx-3 text-muted">/</span> </li>
+                <li class="list-inline-item gallery-list-item" data-filter="free"> Free<span class="mx-md-5 mx-3 text-muted">/</span> </li>
+                <li class="list-inline-item gallery-list-item" data-filter="pro"> Pro </li>
+            </ul>
+            <div class="container-fluid">
+                <div class="d-flex flex-wrap justify-content-center">
+                    <div class="filter new">
+                        <img src="~/images/condo1.jpg" width="300">
+                    </div>
+                    <div class="filter free">
+                        <img src="~/images/condo3.jpg" width="300">
+                    </div> <div class="filter pro">
+                        <img src="~/images/condo34.jpg" width="300">
+                    </div>
+                    <div class="filter new">
+                        <img src="~/images/condo4.jpg" width="300">
+                    </div>
+                    <div class="filter pro">
+                        <img src="~/images/condo5.jpg" width="300">
+                    </div>
+                    <div class="filter free">
+                        <img src="~/images/condo6.jpg" width="300">
+                    </div>
+                    <div class="filter pro">
+                        <img src="~/images/condo7.jpg" width="300">
+                    </div>
+                    <div class="filter free">
+                        <img src="~/images/condo11.jpg" width="300">
+                    </div>
+                    <div class="filter new">
+                        <img src="~/images/condo12.jpg" width="300">
+                    </div>
+                    <div class="filter pro">
+                        <img src="~/images/condo14.jpg" width="300">
+                    </div>
+                    <div class="filter free">
+                        <img src="~/images/condo15.jpeg" width="300">
+                    </div> 
+                    <div class="filter pro">
+                        <img src="~/images/condo16.jpg" width="300">
+                    </div> 
+                    <div class="filter new">
+                        <img src="~/images/condo17.jpg" width="300">
+                    </div>
+                    <div class="filter free">
+                        <img src="~/images/condo18.jpg" width="300">
+                    </div>
+                    <div class="filter new">
+                        <img src="~/images/condo19.jpg" width="300">
+                    </div>
+                    <div class="filter pro">
+                        <img src="~/images/condo20.jpg" width="300">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of gallery -->
+    <!-- Customers -->
+    <<section class="p-5 customers" id="customers">
+        <div class="container-fluid">-->
+            <!-- title -->
+            <div class="row text-white text-center">
+                <div class="col m-4">
+                    <h1 class="display-4 mb-4">Happy Customers</h1>
+                    <div class="underline mb-4"></div>
+                </div>
+            </div>
+            <!-- end of title -->
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <div class="carousel slide" data-ride="carousel" id="customer-carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#customer-carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#customer-carousel" data-slide-to="1"></li>
+                            <li data-target="#customer-carousel" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active text-center">
+                                <img src="~/images/ognjen.jpg" class="img-fluid rounded-circle m-5" width="150">
+                                <blockquote class="blockquote text-white">
+                                    <p class="mb-5">I found just the kind of apartment I was looking for</p>
+                                </blockquote>
+                                <h5 class="text-light text-uppercase font-weight-bold mb-3">John</h5>
+                                <ul class="list-inline mb-5">
+                                    <li class="list-inline-item"> <i class="fas fa-star text-warning"></i> </li>
+                                    <li class="list-inline-item"> <i class="fas fa-star text-warning"></i> </li>
+                                    <li class="list-inline-item"> <i class="fas fa-star text-warning"></i> </li>
+                                    <li class="list-inline-item"> <i class="fas fa-star text-warning"></i> </li>
+                                    <li class="list-inline-item"> <i class="fas fa-star text-warning"></i> </li>
+                                </ul>
+                            </div>
+                            <div class="carousel-item text-center">
+                                <img src="~/images/filip.jpg" class="img-fluid rounded-circle m-5" width="150">
+                                <blockquote class="blockquote text-white">
+                                    <p class="mb-5">Great service, my recommendations</p>
+                                </blockquote>
+                                <h5 class="text-light text-uppercase font-weight-bold mb-3">Cristiano</h5>
+                                <ul class="list-inline mb-5">
+                                    <li class="list-inline-item"> <i class="fas fa-star text-warning"></i> </li>
+                                    <li class="list-inline-item"> <i class="fas fa-star text-warning"></i> </li>
+                                    <li class="list-inline-item"> <i class="fas fa-star text-warning"></i> </li>
+                                    <li class="list-inline-item"> <i class="fas fa-star text-warning"></i> </li>
+                                    <li class="list-inline-item"> <i class="fas fa-star text-warning"></i> </li>
+                                </ul>
+                            </div>
+                            <div class="carousel-item text-center">
+                                <img src="~/images/sinisa.jpg" class="img-fluid rounded-circle m-5" width="150">
+                                <blockquote class="blockquote text-white">
+                                    <p class="mb-5">Available apartments at all locations in the city</p>
+                                </blockquote>
+                                <h5 class="text-light text-uppercase font-weight-bold mb-3">Filipe</h5>
+                                <ul class="list-inline mb-5">
+                                    <li class="list-inline-item"> <i class="fas fa-star text-warning"></i> </li>
+                                    <li class="list-inline-item"> <i class="fas fa-star text-warning"></i> </li>
+                                    <li class="list-inline-item"> <i class="fas fa-star text-warning"></i> </li>
+                                    <li class="list-inline-item"> <i class="fas fa-star text-warning"></i> </li>
+                                    <li class="list-inline-item"> <i class="fas fa-star text-warning"></i> </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of customers -->
+    <!-- Pricing -->
+    <section class="bg-light text-center p-5" id="pricing">
+        <div class="container-fluid">
+            <!-- title -->
+            <div class="row text-muted text-center">
+                <div class="col m-4">
+                    <h1 class="display-4 mb-4">Pricing</h1>
+                    <div class="underline-dark mb-4">
+                    </div>
+                    <p class="lead">Per month without deposit</p>
+                </div>
+            </div>
+            <!-- end of title -->
+            <div class="row align-items-center">
+                <div class="col-lg-4">
+                    <div class="card card-1 text-light py-4 my-4 mx-auto">
+                        <div class="card-body">
+                            <h5 class="text-uppercase font-weight-bold mb-5">Belgrade apartments</h5>
+                            <h1 class="display-4">€180 - €500</h1>
+                            <ul class="list-unstyled">
+                                <li class="font-weight-bold py-3 card-list-item">Habitable apartments</li>
+                                <li class="font-weight-bold py-3 card-list-item">In several locations</li>
+                            </ul> <a href="#" class="btn p-2 text-uppercase font-weight-bold price-card-button text-light">View more!</a>
+                        </div>
+                    </div>
+                </div> <div class="col-lg-4">
+                    <div class="card card-2 text-light py-4 my-4 mx-auto">
+                        <div class="card-body">
+                            <h5 class="text-uppercase font-weight-bold mb-5">Belgrade lux</h5>
+                            <h1 class="display-4">€500 - €1000</h1>
+                            <ul class="list-unstyled">
+                                <li class="font-weight-bold py-3 card-list-item">Habitable apartments</li>
+                                <li class="font-weight-bold py-3 card-list-item">In several locations</li>
+                                <li class="font-weight-bold py-3 card-list-item ">Garage</li>
+                                <li class="font-weight-bold py-3 card-list-item ">Tennis courts</li>
+                                <li class="font-weight-bold py-3 card-list-item ">Jacuzzi</li>
+                            </ul>
+                            <a href="#" class="btn p-2 text-uppercase font-weight-bold price-card-button text-light">View more!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card card-3 text-light py-4 my-4 mx-auto">
+                        <div class="card-body">
+                            <h5 class="text-uppercase font-weight-bold mb-5">Novi Sad apartments</h5>
+                            <h1 class="display-4">€150 - €450</h1>
+                            <ul class="list-unstyled">
+                                <li class="font-weight-bold py-3 card-list-item">Habitable apartments</li>
+                                <li class="font-weight-bold py-3 card-list-item">In several locations</li>
+                            </ul>
+                            <a href="#" class="btn p-2 text-uppercase font-weight-bold price-card-button text-light">View more!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="my-5">
+                <h2 class="text-muted mb-4">Thanks for being with us!</h2> <i class="fas fa-coffee fa-3x"></i>
+            </div>
+        </div>
+    </section>
+    <!-- End of pricing -->
+    <!-- Contact -->
+    <section class="contact p-5" id="contact">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-5 pb-4">
+                    <h3 class="display-4 mb-5 text-white">Get In Touch</h3>
+                    <form class="contact-form">
+                        <div class="form-group py-4">
+                            <input type="text" class="form-control my-2 p-2 input" placeholder="Name">
+                            <label for="name" class="label">Name</label>
+                        </div>
+                        <div class="form-group py-4">
+                            <input type="email" class="form-control my-2 p-2 input" placeholder="Email Address">
+                            <label for="email" class="label">Email Address</label>
+                        </div>
+                        <div class="form-group py-4 my-4">
+                            <input type="checkbox" checked>
+                            <label for="check" class="text-white">Send Announcemets</label>
+                        </div>
+                        <button type="submit" class="btn btn-block p-2 font-weight-bold text-uppercase submit-button">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of contact -->
+    <!-- Footer -->
+    <<footer class="bg-dark px-5">
+        <div class="container-fluid">
+            <div class="row text-light py-4">
+                <div class="col-lg-4 col-sm-6">
+                    <h5 class="pb-3">About Us</h5>
+                    <p class="small">A real estates rental company, whose goal is to find an apartment tailored to your needs</p>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <h5 class="pb-3">Visit Us</h5>
+                    <ul class="list-unstyled">
+                        <li> <a href="#home" class="footer-link">Home</a> </li>
+                        <li> <a href="#mission" class="footer-link">Mission</a> </li>
+                        <li> <a href="#collection" class="footer-link">Collection</a> </li>
+                        <li> <a href="#galery" class="footer-link">Gallery</a> </li>
+                        <li> <a href="#customers" class="footer-link">Customers</a> </li>
+                        <li> <a href="#pricing" class="footer-link">Pricing</a> </li>
+                        <li> <a href="#contact" class="footer-link">Contact</a> </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-sm-6">
+                    <h5 class="pb-3">Need Help?</h5>
+                    <ul class="list-unstyled">
+                        <li> <a href="#" class="footer-link text-uppercase">Customer Service</a> </li>
+                        <li> <a href="#" class="footer-link text-uppercase">Online Chat</a> </li>
+                        <li> <a href="#" class="footer-link text-uppercase">Support</a> </li>
+                        <li> <a href="#" class="text-info">luka@mail.com</a> </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <h5 class="pb-3">Stay Connected</h5>
+                    <p class="small"></p>
+                    <form class="mb-3">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Email Address">
+                            <div class="input-group-append">
+                                <button type="button" class="btn bg-danger text-white text-uppercase font-weight-bold">Sign Up</button>
+                            </div>
+                        </div>
+                    </form>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><i class="fab fa-facebook-square fa-2x text-primary"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-google-plus fa-2x text-danger"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-instagram fa-2x text-danger"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-twitter fa-2x text-info"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-youtube fa-2x text-danger"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center text-light border-top pt-3">
+                    <p>&copy; 2021 Copyright, All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End of footer -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+            integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" 
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+            integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+            crossorigin="anonymous"></script>
+    <script src="~/js/script.js"></script>
+</body>
+</html>
